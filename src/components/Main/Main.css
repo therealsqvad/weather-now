@@ -1,0 +1,24 @@
+.container {
+	text-align: center;
+}
+
+.split {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: calc(var(--offset)*2);
+	min-height: 100px;
+}
+
+.date {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: var(--offset);
+	font-size: 35px;
+	border-left: 2px solid var(--text-color);
+}
+
+.description {
+	font-size: 20px;
+}
